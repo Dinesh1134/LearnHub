@@ -95,14 +95,3 @@
             font-size: 30px;
         }
     }
-
-    @media (max-width: 480px) {
-
-        .brands {
-            grid-template-columns: 1fr;
-        }
-
-        img {
-            width: 160px;
-        }
-    }

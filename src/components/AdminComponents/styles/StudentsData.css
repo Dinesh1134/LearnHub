@@ -1,0 +1,84 @@
+    .StudentsData {
+        padding: 32px 16px;
+    }
+
+    .StudentsData-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        box-sizing: border-box;
+    }
+
+    .Students-detial {
+        padding: 24px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .student-name {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .initial {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 700;
+        width: 48px;
+        height: 48px;
+        color: white;
+        background-color: rgb(201, 253, 2);
+        border-radius: 999px;
+        margin-right: 16px;
+    }
+
+    .fullname {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .students-info p {
+        text-align: left;
+        margin: 0;
+        margin-top: 8px;
+        line-height: 24px;
+    }
+
+    .Students-detial button {
+        margin-top: 16px;
+        padding: 8px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: rgb(239, 68, 68);
+        height: 40px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .Students-detial button:hover {
+        background-color: rgb(212, 48, 48);
+    }
+
+    @media (max-width: 1028px) {
+        .StudentsData-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .StudentsData-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 24px;
+        }
+    }

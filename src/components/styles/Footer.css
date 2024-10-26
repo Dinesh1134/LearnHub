@@ -1,0 +1,49 @@
+    footer {
+        background-color: black;
+        padding: 0 32px;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+    }
+
+    .footer-container {
+        padding: 40px 0;
+    }
+
+    footer h1 {
+        font-size: 36px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: rgb(201, 253, 2);
+    }
+
+    footer p {
+        font-size: 14px;
+        color: rgb(100, 116, 139);
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .next-pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .next-pages a {
+        color: white;
+        text-decoration-line: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .seperater {
+        width: 1px;
+        height: 16px;
+        margin: 0 16px;
+        background-color: rgba(241, 245, 249, 0.2);
+        box-sizing: border-box;
+    }

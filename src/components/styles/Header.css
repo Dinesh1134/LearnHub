@@ -1,0 +1,62 @@
+    header {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        max-width: 1024px; 
+        padding: 12px 0px;
+        position: fixed; 
+        top: 24px;
+        left: 0;
+        right: 0;
+        margin-left: auto; 
+        margin-right: auto;
+        z-index: 20;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid #e5e7eb;
+        border-radius: 24px;
+        box-sizing: border-box;
+        backdrop-filter: blur(16px);
+    }
+
+    .container{
+        padding: 0px 16px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 32px !important;
+    }
+
+    .learnhub h1 {
+        color: rgb(201, 253, 2);
+        font-size: 24px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    .admin a{
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 4px 8px;
+        text-decoration-color: rgb(243, 244, 246);
+        text-decoration-line: none;
+    }
+
+    .learnhub a {
+        text-decoration-line: none;
+    }
+
+    @media (max-width: 768px) {
+        header {
+            top: 0;
+            border-radius: 0px;
+        }
+    }
+
+    @media (max-width: 1024px){
+        header {
+            max-width: 768px;
+        }
+    }
